@@ -1,0 +1,260 @@
+#!/bin/sh
+set -euf
+
+##
+# pip-install-favorites
+#
+# Use the `pip3` command to install our favorite packages.
+#
+# ## Tracking
+#
+# * Command: https://github.com/sixarm/brew-install-favorites-for-developing
+# * Version: 6.0.0
+# * Created: 2020-06-20T22:56:18Z
+# * Updated: 2022-07-29T18:43:43Z
+# * License: GPL-2.0-or-later or contact us for custom
+# * Contact: [Joel Parker Henderson](http://joelparkerhenderson.com)
+##
+
+# altgraph: Graph (network) package.
+pip3 install altgraph
+
+# awscli: Amazon Web Services (AWS) command line interface (CIL).
+pip3 install awscli
+
+# aws-shell: Amazon Web Services (AWS) shell for interactive commands.
+pip3 install aws-shell
+
+# awsebcli: Amazon Web Services (AWS) Elastic Beanstalk (EB) command line interface (CLI).
+pip3 install awsebcli
+
+# bdist-mpkg: Create virtualenv built distributions.
+pip3 install bdist-mpkg
+
+# beautifulsoup: Website screen-scraping and messy parsing.
+pip3 install beautifulsoup4
+
+# boto: Amazon Web Services API interfaces for Python 2
+pip3 install boto
+
+# boto3: Amazon Web Services API interfaces for Python 3
+pip3 install boto3
+
+# celery: Task queues to distribute work across resources.
+pip3 install celery
+
+# cffi: C-code Foreign Function Interface.
+pip3 install cffi
+
+# click: Create command line interfaces in a composable way.
+pip3 install click
+
+# construct: Declarative parser (and builder) for binary data.
+pip3 install construct
+
+# cryptography: Cryptography recipes and primitives.
+pip3 install cryptography
+
+# cycler: Composable style cycles.
+pip3 install cycler
+
+# dataset: Easy-to-use data handling for SQL data stores.
+pip3 install dataset
+
+# dicttoxml: Convert a Python dictionary or other native data type into a valid XML string.
+pip3 install dicttoxml
+
+# dill: A better "pickle" to serialize objects to disk.
+pip3 install dill
+
+# enum34: Python 3.4 Enum backported.
+pip3 install enum34
+
+# flask: Flask is a lightweight WSGI web application framework.
+pip3 install flask
+
+# flask-login: Flask-Login provides user session management for Flask.
+pip3 install flask-login
+
+# flask-sqlalchemy: Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy.
+pip3 install flask-sqlalchemy
+
+# folium: Visualize geographic data.
+pip3 install folium
+
+# funcsigs: Function signatures
+pip3 install funcsigs
+
+# git-filter-repo: Git tool to filter repo files, better than git filter-branch.
+pip3 install git-filter-repo
+
+# idna: Support for the Internationalised Domain Names in Applications (IDNA) protocol.
+pip3 install idna
+
+# ipaddress: IPv4/IPv6 manipulation library.
+pip3 install ipaddress
+
+# jc: JSON converter for popular Unix commands.
+pip3 install jc
+
+# joblib: Job library for caching, parallelizing, persistence.
+pip3 install joblib
+
+# lxml: XML parsing (prefer this when you need speed).
+pip3 install lxml
+
+# macholib: Mach-O header analysis and editing.
+pip3 install macholib
+
+# marshmallow: Simplified object serialization.
+pip3 install marshmallow
+
+# matplotlib: Math plotting library.
+pip3 install matplotlib
+
+# mock: mock is a library for testing in Python.
+pip3 install mock
+
+# modulegraph: modulegraph determines a dependency graph between Python modules.
+pip3 install modulegraph
+
+# ndg-httpsclient: A HTTPS client implementation.
+pip3 install ndg-httpsclient
+
+# nose: nose extends the test loading and running features of unittest.
+pip3 install nose
+
+# numpy: NumPy scientific computing with data structures.
+pip3 install numpy
+
+# pandas: Data analysis, time series, and statistics.
+pip3 install pandas
+
+# passlib: Passlib is a password hashing library.
+pip3 install passlib
+
+# pbr: Python Build Reasonableness.
+pip3 install pbr
+
+# pip: Python package manager.
+pip3 install pip
+
+# pelican: Pelican static site generator.
+pip3 install pelican
+
+# pomp: Web scraping (prefer vs. scrapy).
+pip3 install pomp
+
+# pillow: Friendly fork of PIL, the Python Imaging Library (https://python-pillow.org/).
+pip3 install pillow
+
+# progressbar2: Progress bar (prefer tqdm).
+pip3 install progressbar2
+
+# psutil: psutil provides process and system utilities.
+pip3 install psutil
+
+# pudb: Python debugger (prefer vs. pdb).
+pip3 install pudb
+
+# pyasn1: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208).
+pip3 install pyasn1
+
+# pycparser: pycparser is a complete parser of the C language.
+pip3 install pycparser
+
+# pygithub: Python GitHub API.
+pip3 install pygithub
+
+# pyjwt: pyjwt is a Python implementation of Java Web Tokens as per RFC 7519.
+pip3 install pyjwt
+
+# pymysql: Python bindings for MySQL.
+pip3 install pymysql
+
+# pyopenssl: High-level wrapper around a subset of the OpenSSL library.
+pip3 install pyopenssl
+
+# py2app: py2app is a Python setuptools command which will allow you to make standalone code for macOS.
+pip3 install py2app
+
+# pyparsing: PyParsing is a Python parsing module
+pip3 install pyparsing
+
+# pytest: The pytest framework makes it easy to write tests.
+pip3 install pytest
+
+# python-dateutil: dateutil provides powerful extensions to datetime
+pip3 install python-dateutil
+
+# python-magic: python-magic is a Python interface to the libmagic file type identification library.
+pip3 install python-magic
+
+# pytz: pytz brings the Olson timezone database into Python.
+pip3 install pytz
+
+# redis: The Python interface to the Redis key-value store.
+pip3 install redis
+
+# requests: Requests is HTTP for Humans (http://www.python-requests.org/).
+pip3 install requests
+
+# rich: rich text and beautiful formatting in the terminal.
+pip3 install rich
+
+# schema: Simple data validation library (prefer vs. voluptuous).
+pip3 install schema
+
+# schematics: Data structures and transformations.
+pip3 install schematics
+
+# scipi: SciPy library of algorithms and mathematical tools.
+pip3 install scipy
+
+# scrapy: Scrape and extract data from websites (https://scrapy.org/) (prefer pomp).
+pip3 install scrapy
+
+# semgrep: Semantic grep for source code quality evaluation
+pip3 install semgrep
+
+# setuptools: setup tools
+pip3 install setuptools
+
+# six: Six is a Python 2 and 3 compatibility library.
+pip3 install six
+
+# sphinx: Sphinx makes it easy to create intelligent and beautiful documentation.
+pip3 install sphinx
+
+# sphinx-rtd-theme: Sphinx "Read The Docs" theme.
+pip3 install sphinx-rtd-theme
+
+# sqlalchemy: SQL database abstraction library.
+pip3 install sqlalchemy
+
+# tinydb: Pure Python NoSQL database.
+pip3 install tinydb
+
+# Twisted: event-driven networking engine (https://twistedmatrix.com/).
+pip3 install Twisted
+
+# tqdm: Display progress bars for loops in code (prefer vs. progressbar2).
+pip3 install tqdm
+
+# virtualenv: Virtual environments for independent installations.
+pip3 install virtualenv
+
+# visidata: Rapidly explore columnar data in the terminal.
+pip3 install visidata
+
+# voluptuous: Data validation library (prefer schema).
+pip3 install voluptuous
+
+# xattr: xattr interacts with extended attributes extend the basic attributes of files and directories in the file system.
+pip3 install xattr
+
+# xlrd: Excel reader to export spreadsheet data
+pip3 install xlrd
+
+# zope: Zope is an open-source web application server.
+pip3 install zope
